@@ -22,29 +22,29 @@ layers:
   - ']'
   - Gui+Sft+S
   - '6'
-  - '7'
-  - '8'
+  - '['
+  - ']'
   - '9'
   - '0'
   - F12
   - CAPS
   - '!'
   - +
-  - '{'
-  - '}'
+  - HOME
+  - END
   - Alt+TAB
   - ^
-  - '['
-  - ']'
+  - '{'
+  - '}'
   - (
   - )
   - '|'
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
-  - HOME
-  - END
+  - COPY
+  - PASTE
+  - CUT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
