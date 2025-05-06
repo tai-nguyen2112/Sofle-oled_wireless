@@ -1,7 +1,7 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default: ['~', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESCAPE, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, raise, ENTER, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, ENTER, raise, RCTRL, RALT, RGUI]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -18,24 +18,24 @@ layers:
   - '`'
   - '1'
   - '2'
-  - '3'
-  - '4'
-  - '5'
+  - '['
+  - ']'
+  - Gui+Sft+S
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - F12
-  - {t: ▽, type: trans}
+  - CAPS
   - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - +
+  - '{'
+  - '}'
+  - Alt+TAB
   - ^
-  - '&'
-  - KP MULTIPLY
+  - '['
+  - ']'
   - (
   - )
   - '|'
@@ -43,8 +43,8 @@ layers:
   - '='
   - '-'
   - KP PLUS
-  - '{'
-  - '}'
+  - HOME
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
@@ -70,10 +70,10 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -82,10 +82,10 @@ layers:
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,9 +94,9 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
-  - LEFT
+  - LEFT ARROW
   - DOWN
+  - UP ARROW
   - RIGHT
   - DEL
   - BSPC
@@ -106,21 +106,21 @@ layers:
   - COPY
   - PASTE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,7 +167,7 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
+  - {t: RGB TOG, type: held}
   - ''
   - ''
   - ''
@@ -181,7 +181,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
