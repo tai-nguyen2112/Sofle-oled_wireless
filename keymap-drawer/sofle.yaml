@@ -47,10 +47,10 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - ']'
-  - ;
-  - ':'
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
