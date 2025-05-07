@@ -69,7 +69,7 @@
 &trans     &kp F1     &kp F2     &kp F3      &kp F4         &kp F5                           &kp F6     &kp F7            &kp F8             &kp F9     &kp F10    &kp F11
 &kp GRAVE  &kp N1     &kp N2     &kp K_BACK  &kp K_FORWARD  &kp LG(LS(S))                    &kp N6     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &kp F12
 &kp CAPS   &kp EXCL   &kp PLUS   &kp HOME    &kp END        &kp LA(TAB)                      &kp CARET  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDER  &kp PLUS   &kp PIPE
-&trans     &kp EQUAL  &kp LC(X)  &kp LC(C)   &kp LC(V)      &kp ENTER      &trans    &trans  &kp ENTER  &kp RBKT          &kp SEMI           &kp COLON  &kp BSLH   &trans
+&trans     &kp EQUAL  &kp LC(X)  &kp LC(C)   &kp LC(V)      &kp ENTER      &trans    &trans  &kp LEFT   &kp DOWN          &kp UP_ARROW       &kp RIGHT  &kp BSLH   &trans
                       &trans     &trans      &trans         &trans         &trans    &trans  &trans     &trans            &trans             &trans
             >;
 
