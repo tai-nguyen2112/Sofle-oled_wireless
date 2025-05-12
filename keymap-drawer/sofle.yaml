@@ -16,12 +16,12 @@ layers:
   - F10
   - F11
   - '`'
-  - '1'
-  - '2'
+  - F1
+  - F2
   - Alt+LEFT
   - Alt+RIGHT ARROW
-  - Gui+Sft+S
-  - '6'
+  - Alt+ENTER
+  - END
   - '['
   - ']'
   - '-'
@@ -29,11 +29,11 @@ layers:
   - F12
   - CAPS
   - '!'
-  - +
-  - END
-  - HOME
+  - Gui+Sft+S
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   - Alt+TAB
-  - ^
+  - HOME
   - '{'
   - '}'
   - _
@@ -41,16 +41,16 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - '='
-  - Ctl+X
+  - Alt+INS
   - BACKSPACE
   - DEL
-  - ENTER
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP ARROW
-  - RIGHT
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
+  - SPACE
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
