@@ -67,7 +67,7 @@
 
             bindings = <
 &kp LA(GRAVE)  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)     &kp LA(NUMBER_5)                    &kp F6          &kp F7            &kp F8             &kp F9           &kp F10    &kp F11
-&kp GRAVE      &kp F1            &kp F2            &kp LA(LEFT)      &kp LA(RIGHT_ARROW)  &kp HOME                            &kp UNDER       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS         &kp EQUAL  &kp F12
+&kp F1         &kp F2            &kp END           &kp LA(LEFT)      &kp LA(RIGHT_ARROW)  &kp HOME                            &kp UNDER       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS         &kp EQUAL  &kp F12
 &kp TAB        &kp LC(LS(A))     &kp LG(LS(S))     &kp LC(LS(TAB))   &kp LC(TAB)          &kp LA(TAB)                         &kp MINUS       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL        &kp PLUS   &kp PIPE
 &trans         &kp SPACE         &kp DELETE        &kp LA(INSERT)    &kp BACKSPACE        &kp ENTER         &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_UP       &mmv MOVE_RIGHT  &kp BSLH   &trans
                                  &trans            &trans            &trans               &trans            &trans    &trans  &trans          &trans            &trans             &trans
@@ -88,7 +88,7 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &mkp LCLK       &mkp RCLK  &trans        &trans           &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp HOME        &kp END    &msc SCRL_UP  &msc SCRL_RIGHT  &kp N0   &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &kp F2                          &kp HOME        &kp END    &msc SCRL_UP  &msc SCRL_RIGHT  &kp N0   &trans
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT        &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &kp ENTER       &kp PG_DN  &kp PAGE_UP   &mmv MOVE_RIGHT  &trans   &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans          &trans     &trans        &trans
