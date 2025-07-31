@@ -17,9 +17,9 @@ layers:
   - F11
   - F1
   - F2
-  - END
   - Alt+LEFT
   - Alt+RIGHT ARROW
+  - END
   - HOME
   - _
   - '['
