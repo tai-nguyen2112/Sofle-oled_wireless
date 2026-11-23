@@ -1,14 +1,14 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESCAPE, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, CAPSLOCK, MUTE, N, M, ',', ., /, RSHFT, ENTER, LEFT GUI, LEFT ALT, LEFT CONTROL, lower, SPACE, raise, ENTER, RIGHT ALT, RIGHT CONTROL]
+    Z, X, C, V, B, CAPSLOCK, MUTE, N, M, ',', ., /, RSHFT, ENTER, LEFT ALT, LEFT GUI, LEFT CONTROL, lower, SPACE, raise, ENTER, RIGHT ALT, PRINTSCREEN]
   lower:
-  - Alt+`
-  - Alt+1
-  - Alt+2
-  - Alt+3
-  - Alt+4
-  - Alt+5
+  - Gui+`
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
   - F6
   - F7
   - F8
@@ -17,9 +17,9 @@ layers:
   - F11
   - F1
   - F2
-  - Alt+RIGHT
-  - END
-  - Alt+LEFT ARROW
+  - Gui+W
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   - HOME
   - _
   - '['
@@ -29,9 +29,9 @@ layers:
   - F12
   - TAB
   - Ctl+Sft+A
-  - Gui+Sft+S
-  - Ctl+Sft+TAB
-  - Ctl+TAB
+  - PRINTSCREEN
+  - Sft+Gui+TAB
+  - Gui+TAB
   - Alt+TAB
   - '-'
   - '{'
@@ -58,13 +58,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - Gui+SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -185,3 +185,64 @@ layers:
   - ''
   - ''
   - ''
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
