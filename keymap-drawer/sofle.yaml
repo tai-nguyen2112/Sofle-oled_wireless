@@ -17,7 +17,7 @@ layers:
   - F11
   - F1
   - F2
-  - BACK
+  - Alt+LEFT
   - Ctl+Sft+TAB
   - Ctl+TAB
   - HOME
@@ -40,7 +40,7 @@ layers:
   - +
   - '|'
   - {t: ▽, type: trans}
-  - SPACE
+  - Alt+RIGHT
   - DELETE
   - Alt+INSERT
   - BACKSPACE
