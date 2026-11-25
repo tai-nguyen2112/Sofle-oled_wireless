@@ -18,8 +18,8 @@ layers:
   - F1
   - F2
   - Alt+LEFT
-  - Ctl+Sft+TAB
-  - Ctl+TAB
+  - Sft+Gui+TAB
+  - Gui+TAB
   - HOME
   - _
   - '['
@@ -30,8 +30,8 @@ layers:
   - TAB
   - Ctl+Sft+A
   - PRINTSCREEN
-  - Sft+Gui+TAB
-  - Gui+TAB
+  - Sft+Ctl+TAB
+  - Ctl+TAB
   - Alt+TAB
   - '-'
   - '{'
